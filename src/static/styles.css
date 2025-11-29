@@ -176,6 +176,25 @@ footer {
   box-shadow: 0 1px 0 rgba(255,255,255,0.4) inset;
 }
 
+.participant-badge .participant-email {
+  margin-right: 8px;
+}
+
+.delete-icon {
+  background: transparent;
+  border: none;
+  color: #bf1e2e;
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 1;
+  padding: 4px 6px;
+  border-radius: 4px;
+}
+
+.delete-icon:hover {
+  background-color: rgba(191,30,46,0.08);
+}
+
 .participant-badge:hover {
   background-color: #d7e7ff;
 }
